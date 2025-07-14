@@ -1,15 +1,15 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
-}
+} */
 
-header {
+/* header {
     border: 1px solid rgb(255, 255, 255);
-}
+} */
 
 #index_page {
     width: 1000px;
-    margin: 0,auto;
+    margin: 0 auto;
 }
 
 #logo {
@@ -112,7 +112,7 @@ li.menu_item {
 #notice ul {
     margin-top: 10px;
 }
-#notice ul li {
+#notice li {
     margin-top: 5px;
 }
 
@@ -123,5 +123,69 @@ li.menu_item {
     /* border: 1px solid red; */
     margin-top: 20px;
     margin-left: 30px;
+}
+/*sitemap 섹션*/
+#sitemap {
+    padding: 20px 0 0 15px;
+}
+#sitemap div {
+    height: 140px;
+    float: left;
+    /* border: 1px solid red; */
+    margin: 0 10px 0 10px;
+}
 
+#sitemap li {
+    list-style-image: url("../images/blue_dot.gif"); 
+    /*css는 경로설정 확인 필요,상위폴더로 갔다가 이미지폴더로 들어가서 ..을 붙여줌*/
+    margin: 5px 0 0 20px;
+}
+#sitemap h3 {
+    font-size: 15px;
+    color: #059092;
+    margin-left: 15px;
+}
+#sitemap ul {
+    color: #666666;
+}
+/*footer*/
+footer {
+    border-top: 3px solid #00a8ab ;
+    padding: 20px;
+}
+footer #address {
+    float: left;
+}
+footer #link {
+    float: right;
+}
+footer #footer_menu {
+    margin-top: 5px;
+}
+footer #company_info {
+    margin-top: 20px;
+}
+footer #company_info li {
+    margin-top: 2px;
+}
+footer #copyright {
+    margin-top: 10px;
+    font-size: 11px;
+    color: black;
+}
+footer #link h3 {
+    font-size: 16px;
+    color: #00a8ab;
+}
+footer #link select {
+    margin-top: 5px;
+    margin-left: 50px;
+    width: 100px;
+    height: 20px;
+    font-size: 11px;
+
+}
+footer #icons {
+    margin-top: 5px;
+    text-align: right; /*이미지들은 문자처럼 정렬 가능*/
 }
