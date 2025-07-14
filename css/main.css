@@ -62,6 +62,66 @@ li.menu_item {
 }
 #banner {
     height: 110px;
-    background-color: #00a8ab;
+    background-color: #00a8ab; /*배경색상 배너와 같은색으로 덮어버림*/
     margin-top: 5px;
+}
+
+#customer {
+    float: left;
+    width: 300px;
+    height: 120px;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    
+}
+
+#customer .title {
+    float: left;
+    margin-left: 10px;
+}
+#customer .more {
+    float: right;
+}
+#customer .phone {
+    margin-left: 10px;
+}
+#notice {
+    float: left;
+    width: 300px;
+    height: 120px;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    margin-left: 40px;
+}
+#notice .title {
+    float: left;
+    margin-left: 10px;
+}
+#notice .more {
+    float: right;
+}
+#notice .subject {
+    float: left;
+    margin-left: 10px;
+
+}
+#notice .date {
+    float: right;
+    margin-right: 5px;
+}
+#notice ul {
+    margin-top: 10px;
+}
+#notice ul li {
+    margin-top: 5px;
+}
+
+#faq {
+    float: left;
+    width: 300px;
+    height: 120px;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    margin-left: 30px;
+
 }
