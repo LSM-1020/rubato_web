@@ -14,7 +14,7 @@ header {
 
 #logo {
     float: left;
-    margin: 15px 15px 15px 20px; /*박스 마진*/
+    margin: 15px 15px 0 20px; /*박스 마진*/
 }
 
 #moto {
@@ -26,8 +26,8 @@ header {
 #top_menu {
      float: right;
              margin: 50px 0 0 0; /*위에만 마진을 줘서 하단정렬된느낌*/
-
-}
+            /*list-style-type=none*/            
+            }
 
 #top_menu li{
     display: inline; /*세로정렬을 가로로 바꿈*/
@@ -35,6 +35,11 @@ header {
 
 .line {
     border-top: 1px solid #CCCCCC;
+    margin: 25px 0 0 0;
+}
+
+#top_nav {
+    margin: 25px 0 0 0;
 }
 
 #top_nav li {
@@ -45,4 +50,8 @@ header {
 .clear {
     clear: both; /*float끝 지정*/
 
+}
+
+li.menu_item {
+    margin: 0 0 0 40px;
 }
