@@ -4,7 +4,7 @@
 }
 
 header {
-    border: 1px solid red;
+    border: 1px solid rgb(255, 255, 255);
 }
 
 #index_page {
@@ -54,4 +54,14 @@ header {
 
 li.menu_item {
     margin: 0 0 0 40px;
+}
+
+#banner ul li {
+    display: inline;
+    margin-left: 30px;
+}
+#banner {
+    height: 110px;
+    background-color: #00a8ab;
+    margin-top: 5px;
 }
